@@ -135,6 +135,36 @@ span.en-t{display:none}
 .c-ftext{resize:vertical}
 .c-fsubmit{background:var(--steel);color:#fff;border-radius:7px;width:100%;margin-top:6px}
 .c-fsubmit:hover{background:#255f92}
+@media(max-width:980px){
+.c-nav{padding:14px 24px}
+.c-navinner{flex-wrap:wrap;gap:12px 20px;justify-content:space-between}
+.c-menu{font-size:13px;gap:16px!important;flex-wrap:wrap}
+.c-hero{padding:44px 24px 72px}
+.c-heroinner{grid-template-columns:1fr;gap:32px}
+.c-h1{font-size:40px}
+.c-sub{font-size:16px}
+.c-stats{grid-template-columns:1fr 1fr;padding:0 24px;margin:-46px auto 0}
+.c-sec{padding:56px 24px}
+.c-h2{font-size:28px}
+.c-about{grid-template-columns:1fr;gap:32px}
+.c-aboutright{height:auto}
+.c-grid{grid-template-columns:1fr}
+.c-certs{grid-template-columns:1fr 1fr}
+.c-cinner{grid-template-columns:1fr;gap:32px}
+.c-foot{padding:22px 24px;flex-direction:column;gap:8px;text-align:center}
+.c-modalimgs{grid-template-columns:1fr}
+.c-msecgal{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+.c-menu{width:100%;order:3}
+.c-h1{font-size:32px}
+.c-stats{grid-template-columns:1fr 1fr;gap:12px}
+.c-certs{grid-template-columns:1fr}
+.c-gallery{grid-template-columns:1fr}
+.c-carstage{aspect-ratio:4/3}
+.c-modal,.c-form{padding:26px 20px}
+.c-carnav{width:42px;height:42px;font-size:24px}
+}
 </style></helmet><div class="dsroot {{ langClass }}">
 <header class="c-nav"><div class="c-navinner fx ac jb"><div class="c-brand fx ac gap12"><img class="c-logoimg" src="uploads/evrobrod_logo_chip.png" alt="EVROBROD logo"><div class="c-brandtext"><div class="c-logo disp">EVROBROD</div><div class="c-brandsub">Zrenjanin</div></div></div><nav class="c-menu fx ac gap24"><a href="#pocetna"><span class="sr-t">Početna</span><span class="en-t">Home</span></a><a href="#onama"><span class="sr-t">O nama</span><span class="en-t">About</span></a><a href="#usluge"><span class="sr-t">Delatnosti</span><span class="en-t">Services</span></a><a href="#sertifikati"><span class="sr-t">Sertifikati</span><span class="en-t">Certificates</span></a><a href="#kontakt"><span class="sr-t">Kontakt</span><span class="en-t">Contact</span></a></nav><div class="fx ac gap16"><div class="langtog"><button class="lb lb-sr" onClick="{{ setSr }}">SR</button><button class="lb lb-en" onClick="{{ setEn }}">EN</button></div></div></div></header>
 <section id="pocetna" class="c-hero"><div class="c-heroinner"><div><div class="c-eye mono"><span class="sr-t">PROIZVODNO PREDUZEĆE · OD 1990.</span><span class="en-t">MANUFACTURING COMPANY · SINCE 1990</span></div><h1 class="c-h1"><span class="sr-t">Pouzdan partner u brodogradnji i procesnoj opremi</span><span class="en-t">A reliable partner in shipbuilding and process equipment</span></h1><p class="c-sub"><span class="sr-t">Izrada, montaža i remont procesne opreme za prehrambenu, naftnu i hemijsku industriju — po najvišim standardima kvaliteta.</span><span class="en-t">Fabrication, installation and overhaul of process equipment for the food, oil and chemical industries — to the highest quality standards.</span></p><div class="fx ac gap12"><button class="btn c-btnp" onClick="{{ openForm }}"><span class="sr-t">Zatražite ponudu</span><span class="en-t">Request a quote</span></button><button class="btn c-btno" onClick="{{ openCar }}"><span class="sr-t">Naše usluge</span><span class="en-t">Our services</span></button></div></div><img class="c-heroph" src="uploads/Nova Hala 1.jpg" alt="Evrobrod pogon" style="object-fit:cover;width:100%"></div></section>
