@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evrobrod.com/sitemap.xml
